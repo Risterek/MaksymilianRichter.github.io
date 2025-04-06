@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    color: black;
+    
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+
+  40% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+
+.container{
+    padding: 5vh 5vw 5vh 5vw;
+    display: flex;
+    margin-bottom: 4%;
+    animation: fadeIn 1s cubic-bezier(.25, .1, .25, 1);
+    transform-origin: center bottom;
+  }
+  
+  .projectList {
+    width: 60%;
+    padding: 20px;
+  }
+
+  .projectList img{
+    width: 100%;
+  }
+  
+  .projectCover, .manyMoreCover{
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .dataContainer{
+    position: fixed;
+    left: 60%;
+    bottom: 10%;
+    font-size: 2rem;
+    padding: 5vh 5vw 5vh 5vw;
+  }
